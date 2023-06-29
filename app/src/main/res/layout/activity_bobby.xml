@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityBobby">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background"
+        tools:context=".Sezon1Sayfa3">
+
+        <Button
+            android:id="@+id/button10"
+            android:layout_width="125dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginBottom="16dp"
+            android:onClick="öncekiSayfa"
+            android:text="Geri"
+            app:layout_constraintBottom_toBottomOf="parent"
+
+            app:layout_constraintHorizontal_bias="0.204"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout3"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.175">
+
+            <ImageView
+                android:id="@+id/imageView19"
+                android:layout_width="match_parent"
+                android:layout_height="173dp"
+                app:srcCompat="@drawable/bobbyt1" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="BOBBY MUNSON"
+                android:textAlignment="center"
+                android:textColor="#FF0000"
+                android:textSize="24sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="Robert &quot;Bobby Elvis&quot; Munson, FX orijinal dizisi Sons of Anarchy'deki Sons of Anarchy Charming Chapter'ın eski Başkan Yardımcısıydı. Amerikalı aktör Mark Boone Junior tarafından canlandırılan Bobby, dizinin ilk sezonundaki &quot;Pilot&quot; adlı ilk bölümüyle ilk kez sahneye çıkıyor. Bobby, tüm serideki ana karakterlerden biridir; sadece 6 bölümde görünmüyor. Yeni Başkan Yardımcısı seçildi, ancak sezon sonunda istifa etti çünkü Jax Teller'ın liderliğinden ve Pope'un cinayetini Clay'e yüklemekten memnun değildi. Tara'nın ölümünden sonra Gemma tarafından öldürülür ve cinayeti Lin Triad'a sabitlenir, Henry Lin ve Oğullar arasındaki devam eden çatışma sonunda Bobby'nin August Marks'ın adamları tarafından yakalanmasına yol açar, burada acımasız işkenceye maruz kalır, gözü oyulur ve parmakları kırılır. Ağustos ayında serbest bırakıldıktan sonra, ihanetinin cezası olarak Jax'in önünde öldürüldü. Dizinin yedinci ve son sezonundaki &quot; What a Piece of Work is Man &quot; bölümünde vefatıyla tanışıyor."
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView38"
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="Munson'un babası Reno, Nevada'da muhasebeciydi ve İtalyan Mafyası için iki takım kitap tuttu. Bobby görünüşe göre muhasebeyi ondan öğrenmiş. 7. Sezonda Bobby'nin Grenada'ya bağlı orduda görev yaptığı, ancak hiçbir zaman konuşlandırılmadığı ortaya çıktı. Yahudidir ve Lake Tahoe'da Elvis Presley taklitleri yapar, bu da bazen Elvis olarak anılmasına neden olur. Sons of Anarchy'nin eski sekreteridir. Bu, kulübün tüm mali işlerinden sorumlu olduğu anlamına gelir. Kulübün daha sakin üyelerinden biri olarak, özellikle Sezon 2'de arkadaşları arasındaki gerilimi sık sık yatıştırmaya çalışmak zorunda olduğunu fark eder. Daha önce Precious Ryan ile evlidir ve bir oğulları vardır. Ayrıca ilk bölümde sadece bir kez atıfta bulunulan ikinci bir isimsiz eski karısı var. Sabah 9'dan önce esrar içmediğine dair bir kuralı olduğunu söylüyor. Bobby'nin SAMCRO macerası ilk &quot;göçmen&quot; bölüğünde başlamıştır."
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textStyle="bold|italic" />
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

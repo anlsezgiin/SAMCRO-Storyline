@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivitySezon3Sayfa2">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background"
+        tools:context=".Sezon1Sayfa3">
+
+        <Button
+            android:id="@+id/button10"
+            android:layout_width="125dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginBottom="16dp"
+            android:onClick="öncekiSayfa"
+            android:text="Geri"
+            app:layout_constraintBottom_toBottomOf="parent"
+
+            app:layout_constraintHorizontal_bias="0.204"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout3"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="125dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            android:onClick="anasayfa"
+            android:text="anasayfa"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/button10"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout3"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.175">
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="match_parent"
+                android:layout_height="271dp"
+                app:srcCompat="@drawable/first9" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="7.BÖLÜM ''GENİŞLEME DÖNGÜSÜ''"
+                android:textAlignment="center"
+                android:textColor="#FF0000"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="Grim Bastards'ın, Samcro'nun yeni iş anlaşmalarını tehlikeye atabilecek bir sorunu var."
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="8.BÖLÜM &quot;LUCHAN MOR&quot;"
+                android:textAlignment="center"
+                android:textColor="#FF0000"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="Samcro başka bir sözleşmeyi ziyaret ettiğinde, herkes anne bölümünü görmekten mutlu olmaz. "
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="9.BÖLÜM &quot;TURA&quot;"
+                android:textAlignment="center"
+                android:textColor="#FF0000"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="Kulüp, daha önce hiç görmedikleri bir koruma çalışmasına başlar. "
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="10.BÖLÜM ''FIRINNE''"
+                android:textAlignment="center"
+                android:textColor="#FF0000"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="Gerçek IRA, içlerinden birinin ters olduğuna dair kanıt istiyor ve Samcro bunu onlara vermeyi planlıyor. "
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="11.BÖLÜM &quot;HAİN&quot;"
+                android:textAlignment="center"
+                android:textColor="#FF0000"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="Kulüp bir erkek avındayken, Jax hayatının en zor kararıyla karşı karşıyadır. "
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="12.BÖLÜM &quot;HAZİRAN DÜĞÜNÜ&quot;"
+                android:textAlignment="center"
+                android:textColor="#FF0000"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="Tara rehin alınır ve Jax intikam ve Charming'in iyiliği arasında seçim yapmalıdır. Jimmy O da İrlanda'dan döndü ve kendini Rus silah kaçakçısı Putlova ile tehlikeli bir durumda buldu."
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="13.BÖLÜM &quot;NS&quot;"
+                android:textAlignment="center"
+                android:textColor="#FF0000"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="ATF ve Ruslar engel olurken SAMCRO eski yaraları iyileştirmeye çalışıyor."
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textStyle="bold|italic" />
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

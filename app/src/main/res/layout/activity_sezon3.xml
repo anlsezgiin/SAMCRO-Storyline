@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivitySezon3">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background"
+        tools:context=".Sezon1Sayfa3">
+
+        <Button
+            android:id="@+id/button10"
+            android:layout_width="125dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginBottom="16dp"
+            android:onClick="öncekiSayfa"
+            android:text="Geri"
+            app:layout_constraintBottom_toBottomOf="parent"
+
+            app:layout_constraintHorizontal_bias="0.204"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout3"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="125dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            android:onClick="sonrakiSayfa"
+            android:text="İleri"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/button10"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout3"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.175">
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="match_parent"
+                android:layout_height="242dp"
+                app:srcCompat="@drawable/soa16" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="Dizimizin 3. sezonu önceki iki sezon gibi 13 bölümden oluşmaktadır. 7 Eylül 2010 tarihinde yayınlanmaya başlanan 3. sezon 30 Kasım 2010 tarihinde sona ermiştir."
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="1.BÖLÜM ''S0''"
+                android:textAlignment="center"
+                android:textColor="#FF0000"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="Abel'ın kaçırılması ve Half-Sack'in Ölümünün ardından Sons, özellikle de Jax sarsılır; Hala şüphede olan Gemma, geçmişinden beklenmedik bir haber alır."
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="2.BÖLÜM ''YAĞLANMIŞ''"
+                android:textAlignment="center"
+                android:textColor="#FF0000"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="Abel'ın nerede olduğu hakkında bilgi almak için Jax ve kulüp, bir kelle avcısının bir uçurumu bulmasına yardım eder; Gemma aile sorunlarıyla ilgilenir."
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="3.BÖLÜM ''BAKICI''"
+                android:textAlignment="center"
+                android:textColor="#FF0000"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="Kulüp, Henry Lin'in tek bir üyeyle pek anlaşamayan müşterilerini eğlendirmek için porno bağlantılarını kullanıyor."
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="4.BÖLÜM ''EV''"
+                android:textAlignment="center"
+                android:textColor="#FF0000"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="SAMCRO, cahil topraklarında bir ilaç yardımı ile Happy'e yardım etmek için kuzeye gider; Gemma, eski aile meselelerini bir kenara bırakmaya çalışır."
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="5.BÖLÜM ''DÖNER VE DÖNER''"
+                android:textAlignment="center"
+                android:textColor="#FF0000"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="Jax, annesine, kulübüne ve oğluna yardım etmek için beklenmedik bir kaynakla komplo kurar; MC, Chucky'yi gizli göreve getirir."
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="6.BÖLÜM &quot;İTME&quot;"
+                android:textAlignment="center"
+                android:textColor="#FF0000"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="Sons of Anarchy, topraklarını korumak için St. Thomas'ta bir fareyi idare etmek zorundadır. "
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textStyle="bold|italic" />
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

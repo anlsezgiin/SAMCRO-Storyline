@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivitySezon6Sayfa2">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background"
+        tools:context=".Sezon1Sayfa3">
+
+        <Button
+            android:id="@+id/button10"
+            android:layout_width="125dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginBottom="16dp"
+            android:onClick="öncekiSayfa"
+            android:text="Geri"
+            app:layout_constraintBottom_toBottomOf="parent"
+
+            app:layout_constraintHorizontal_bias="0.204"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout3"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="125dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            android:onClick="sonrakiSayfa"
+            android:text="İLERİ"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/button10"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout3"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.175">
+
+            <ImageView
+                android:id="@+id/imageView20"
+                android:layout_width="match_parent"
+                android:layout_height="261dp"
+                app:srcCompat="@drawable/soa9" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="3.BÖLÜM ''POENTENTIA''"
+                android:textAlignment="center"
+                android:textColor="#FF0000"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="Hapishanede öldürülmek yerine, Pope'un halkına bağlı olabilecek mahkumlar bunun yerine Clay'e bir hapishane avlusunda bıçaklama yapmasını söyler. Jax ve Peter Weller'in oynadığı eski polisten çeteye dönüşen oyuncu, İranlılarla hesaplaşır. Marshall Lee Toric, motel odasına getirdiği bir Diosa fahişesini yanlışlıkla vurur. Ölü cesede, ölümünü önemli hale getireceğini söyleyerek, Nero Padilla'nın kamyonuna yerleştirmek için saç ve kan örnekleri alır.  Jax, Tig'i İranlılardan çaldıkları şeyleri depoladıkları depoya geri gönderir. Tig, Jax'i bekliyor, ancak Bay Pope'un ortağı Bay Marx ortaya çıkıyor."
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="4.BÖLÜM ''KURTSANGEL''"
+                android:textAlignment="center"
+                android:textColor="#FF0000"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="Eski ABD'li Marshall Lee Toric, Clay'i Otto'yu ziyarete götürür. Clay, Otto'ya bir bıçak takar. Toric, Otto'ya SAMCRO'nun günahlarını yazması için bir defter verir.  Otto, Toric'in kız kardeşi hakkında aşağılayıcı bir yorum yazar ve ardından Toric'i öldürür. Gardiyanlar daha sonra Otto'yu öldür. Jax, bazı dazlak Nazilerden intikam alır,  onları öldürür ve kırsal mülklerine silahları yerleştirir ve ardından evlerini ateşe vererek  iç sığır eti gibi gösterir. Galen, Jax'in silahları bırakmak istemesine sinirlenir ve Galen, Osbournes kereste ambarına gider ve SAMCRO üyesi Phil'i ve bir SAMCRO adayını vurup parçalara ayırır.  Şerif, Lee Toric'in bir işe yaramadığından şüphelenerek Lee Toric'in personel dosyasını emreder. Şerif, Nero'nun eve gitmesine izin verir, ancak Nero'nun kamyonuna el konur.MCRO'ya iyilik yapar."
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textStyle="bold|italic" />
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

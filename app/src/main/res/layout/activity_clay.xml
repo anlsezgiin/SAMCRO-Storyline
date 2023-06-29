@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityClay">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background"
+        tools:context=".Sezon1Sayfa3">
+
+        <Button
+            android:id="@+id/button10"
+            android:layout_width="125dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginBottom="16dp"
+            android:onClick="öncekiSayfa"
+            android:text="Geri"
+            app:layout_constraintBottom_toBottomOf="parent"
+
+            app:layout_constraintHorizontal_bias="0.204"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout3"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.175">
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="CLAY MORROW"
+                android:textAlignment="center"
+                android:textColor="#FF0000"
+                android:textSize="24sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="Clarence 'Clay' Morrow , FX orijinal dizisi Sons of Anarchy'de Sons of Anarchy California Redwood Originals MC'nin eski Başkanıydı. Amerikalı aktör Ron Perlman'ın canlandırdığı Clay, dizinin ilk sezonunda dizinin ilk bölümü olan &quot;Pilot&quot; ile ilk kez sahneye çıkıyor. Serinin birinci, ikinci, üçüncü ,dördüncü ,beşinci ve altıncı boyunca tekrar eden bir rol oynayan Clay, başlangıçta ilk üç sezonda bir ana karakter ve kahraman olarak göründü, yavaş yavaş Sezon 4'ün birincil antagonisti, Sezon 5'in ikincil antagonisti ve Sezon 6'nın ikincil bir düşmandan-anti-kahramanı oldu. İlk 9'un en küçüğüydü, Gemma Teller Morrow ile evliydi. 5. Sezonun sondan bir önceki bölümünde kulübün oybirliğiyle aldığı oylamanın ardından yaması çıkarıldı ve 6. Sezon &quot;Aon Rud Persanta&quot; bölümünde vefat etti."
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView38"
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="Bir zamanlar yanında pek çok güçlü müttefiki olan korkulan ve tehlikeli bir adam, SAMCRO'nun masasının başında otururken; Seri devam ettikçe Clay'in gücü ve erişimi kulübü ve etrafındakiler üzerinde sürekli olarak azaldı. Clay, yıllarca süren ihanetleri ve acımasız eylemleri sonunda yakalandıktan sonra, kendi kulübünün ellerinden tek başına öldü."
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textStyle="bold|italic" />
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

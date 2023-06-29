@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivitySezon6Sayfa3">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background"
+        tools:context=".Sezon1Sayfa3">
+
+        <Button
+            android:id="@+id/button10"
+            android:layout_width="125dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginBottom="16dp"
+            android:onClick="öncekiSayfa"
+            android:text="Geri"
+            app:layout_constraintBottom_toBottomOf="parent"
+
+            app:layout_constraintHorizontal_bias="0.204"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout3"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="125dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            android:onClick="sonrakiSayfa"
+            android:text="İLERİ"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/button10"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout3"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.175">
+
+            <ImageView
+                android:id="@+id/imageView21"
+                android:layout_width="match_parent"
+                android:layout_height="217dp"
+                app:srcCompat="@drawable/soa11" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="5.BÖLÜM ''ÇILGIN KRAL''"
+                android:textAlignment="center"
+                android:textColor="#FF0000"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="Gemma, Wendy'ye, Gemma'nın her zaman Wendy'nin Jax için Tara'dan daha iyi olduğunu düşündüğünü söyler. Tara, Wendy'ye, Tara şehirden ayrılırsa Wendy'nin çocuklara bakması gerektiğini söyler.  Samcro tayfası, Galen ve Galen'in tayfasının peşine düşer ve birkaç adamı yakalar. İrlanda'daki IRA büyükleri Jax'in misillemesinden hoşlanmazlar, ancak Jax onları Galen'in kontrolden çıktığına ve kendisi için  vurgun yapmaya çalıştığına ikna etmeye çalışır.  Jax, IRA büyüklerine Bay Marks'ın siyah olmasına rağmen silah sevkiyatları için sağlam bir müşteri olacağını söyler."
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="6.BÖLÜM ''KURTARMA''"
+                android:textAlignment="center"
+                android:textColor="#FF0000"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="Charming bölümü, birkaç West Coast SoA ile bir zirve toplantısına giderken kirli polisler tarafından çekilir, ancak kaçar. Zirvede Jax, IRA ile silah ticaretinin sona erdiğini duyurdu ve anlaşma ve onayla karşılandı.  Bobby, Charming bölümüne yeni üyeler getiriyor. Eyalet savcısı, SOA aleyhinde ifade vermediği sürece Tara'yı kovuşturmakla tehdit ediyor. Şerif, ölen Lee Toric'in motel odasını arar ve Nero'nun masumiyetine ikna olur."
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="7.BÖLÜM ''TATLI VE VADED''"
+                android:textAlignment="center"
+                android:textColor="#FF0000"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="SAMCRO, Nero'nun transseksüel arkadaşının yardımına koşar. Tara, muhtemelen Jax'ten olmasa da, Gemma'dan ayrılmaya daha kararlıdır. Tara sahte bir saldırı yapar ve Gemma'ya karşı yasaklama emri alır."
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textStyle="bold|italic" />
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

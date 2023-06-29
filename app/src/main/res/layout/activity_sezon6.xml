@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivitySezon6">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background"
+        tools:context=".Sezon1Sayfa3">
+
+        <Button
+            android:id="@+id/button10"
+            android:layout_width="125dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginBottom="16dp"
+            android:onClick="öncekiSayfa"
+            android:text="Geri"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.204"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout3"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="125dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            android:onClick="sonrakiSayfa"
+            android:text="İleri"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/button10"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout3"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.175">
+
+            <ImageView
+                android:id="@+id/imageView22"
+                android:layout_width="match_parent"
+                android:layout_height="247dp"
+                app:srcCompat="@drawable/opiee" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="10 Eylül 2013 tarihinde 13 bölümlük 6. sezonu ile karşımıza çıkan dizimiz 92 günlük süre içerisinde yayınlanmış ve 10 Aralık 2013 tarihinde sezon finali yapmıştır. "
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="1. BÖLÜM ''SAMAN''"
+                android:textAlignment="center"
+                android:textColor="#FF0000"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="Clay Morrow ve Tara Knowles'ın hapsedilmesinden sadece birkaç gün sonra  SAMCRO'da çok şey değişti : Chibs Telford şimdi Başkan Yardımcısı, Happy yeni Silah Başçavuşu, Bobby Munson SAMCRO'dan uzaklaştı ve Nomad'a gitmeyi düşünüyor ve Juice Ortiz 'ın kulüpteki durumu söz konusu."
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="2.BÖLÜM ''BİR ALTI ALTI''"
+                android:textAlignment="center"
+                android:textColor="#FF0000"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="Jax, Katolik okulundaki çekimin, gönderdiği KG-9'lardan kaynaklandığını öğrenirken, Nero ona Matthew adlı çocuğun kuzenlerinin Arcadio olduğunu söyler. Jax, silah kaçakçılığı işinden kurtulmak için Galan'a gider, ancak vurulma nedeniyle Galan, silahların daha yüksek bir fiyata satılacağından emindir. İlçede Lee, Clay'e işbirliği yapmak için bir anlaşma getirir. Lee, adaletten çok intikamla ilgilendiğini açıklıyor. Sahte Papa cinayet suçlamasıyla Clay'e yardım, kulüp suçlamalarından dokunulmazlık ve dünyanın herhangi bir yerinde tanık koruma teklif ediyor. Clay aynı fikirde değil, bu yüzden Lee kendisi imzalar ve Clay'in imzasını taklit eder. Gemma, Nero'ya Arcadio ve Darvany'yi evlerinden çıkarıp SAMCRO'nun güvenli evine götürmesini önerir.  Oraya vardıklarında Darvany, Arcadio ile kaçmaya çalışır ama Nero kendi kuzenini öldürmek zorunda kalır. Nefret eden Jax, Juice'a Darvany'yi uyuşturup öldürmesini sağlar. Yolda Bobby, Nomad'a gitmesi için başka bir üye ekler."
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textStyle="bold|italic" />
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

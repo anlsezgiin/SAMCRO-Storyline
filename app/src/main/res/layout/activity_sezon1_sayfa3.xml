@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".Sezon1Sayfa3">
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="125dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginBottom="16dp"
+        android:onClick="öncekiSayfa"
+        android:text="Geri"
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        app:layout_constraintHorizontal_bias="0.204"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="125dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:onClick="sonrakiSayfa"
+        android:text="İleri"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/button10"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.175">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="424dp"
+            android:layout_height="258dp"
+            app:srcCompat="@drawable/bobbyt1" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:text="6.BÖLÜM ''AK_51''"
+            android:textAlignment="center"
+            android:textColor="#FF0000"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="Piney'nin eski savaş arkadaşı için küçük bir iyilik, SAMCRO için büyük bir soruna dönüşür. Clay gözaltına alındığında, Jax durumu halletmek için adım atmalıdır. "
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:text="7.BÖLÜM ''ESKİ KEMİKLER''"
+            android:textAlignment="center"
+            android:textColor="#FF0000"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="match_parent"
+            android:layout_height="89dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="Charming'in eteklerinde eski kemikler keşfedildiğinde, Clay uzun zaman önce gömdüğü sırlarla uğraşmak zorunda kalır.  Bu arada, kulüp, yarım yamalak bir kavgada Half-Sack'i destekleyerek, para ödülüne odaklanıyor. ATF ajanı Kohn'un soruşturması, gerçek niyetleri ortaya çıkınca kişiselleşir."
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:text="8.BÖLÜM ''ÇEKME''"
+            android:textAlignment="center"
+            android:textColor="#FF0000"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="422dp"
+            android:layout_height="58dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="IRA silah ödemesi yaklaşırken, SAMCRO parayı bulmak için uğraşır. Mayalar ve Nordlar ittifaklarını güçlendirmek için büyük bir adım atıyorlar. Jax, kendisini Tara ile tehlikeli bir durumda bulur."
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:text="9.BÖLÜM ''DAHA İYİ YARIM''"
+            android:textAlignment="center"
+            android:textColor="#FF0000"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="match_parent"
+            android:layout_height="71dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="ATF ajanı Stahl'ın SAMCRO'nun kadınlarına baskı yapmasıyla Jax, Şef Unser'ı kulübün kurtuluşunun anahtarı olarak görür. Tara, Kohn durumundan hala rahatsız.  Ve Cherry, Gemma'ya geçmişiyle ilgili bazı ilginç bilgiler verir."
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:text="10.BÖLÜM ''DAHA İYİ YARIM''"
+            android:textAlignment="center"
+            android:textColor="#FF0000"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="match_parent"
+            android:layout_height="71dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="Bir SOA üyesi cinayetten tutuklandığında ve bir diğeri kaybolduğunda, Jax arkadaşlık ve kulüp arasında seçim yapmak zorunda kalır. Bu arada, Abel güçleniyor ve yakında YYBÜ'den çıkacak, ancak eve gelen tek kişi o değil."
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textStyle="bold|italic" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

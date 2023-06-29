@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityChibs">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background"
+        tools:context=".Sezon1Sayfa3">
+
+        <Button
+            android:id="@+id/button10"
+            android:layout_width="125dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginBottom="16dp"
+            android:onClick="öncekiSayfa"
+            android:text="Geri"
+            app:layout_constraintBottom_toBottomOf="parent"
+
+            app:layout_constraintHorizontal_bias="0.204"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout3"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.175">
+
+            <ImageView
+                android:id="@+id/imageView25"
+                android:layout_width="match_parent"
+                android:layout_height="241dp"
+                app:srcCompat="@drawable/chibs" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="CHİBS TELFORD"
+                android:textAlignment="center"
+                android:textColor="#FF0000"
+                android:textSize="24sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="Filip 'Chibs' Telford , FX orijinal serisi Sons of Anarchy'deki Sons of Anarchy Motorcycle Club Redwood Original'in (SAMCRO) şu anki Başkanıdır. İskoç aktör Tommy Flanagan'ın canlandırdığı Chibs, dizinin ilk sezonunda dizinin ilk bölümü olan &quot;Pilot&quot; ile ilk kez sahneye çıkıyor. Tüm dizi boyunca ana kadronun bir parçası; sadece 4 bölümde görünmüyor. Bununla birlikte, her bölümdeki rolü, tekrar eden bir roldür. Merkezi Charming , California'da bulunan Chibs, eski bir Başkan Yardımcısıdır .ve ondan önce Silahlı Kuvvetler Çavuşudur ve kulüpteki Amerikalıların çoğunun aksine, İskoçyalıdır. İrlandalılar ona sık sık &quot;İskoç&quot; derler ve ona düşmanı &quot;Jimmy O&quot; tarafından verilen yüzündeki yara izleri nedeniyle (&quot;chib&quot; İskoçların bıçak veya bıçaklama aleti için kullanılan argodur) lakabı &quot;Chibs&quot;dir. Kulübün eski Başkanı Jax Teller'a son derece sadıktı ve Juice Ortiz'e giderek daha çok baba gibi görünen bir figür gibi görünüyordu."
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView38"
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="Telford 1963'te doğdu ve aslen Glasgow, İskoçya'dandı ancak Belfast, Kuzey İrlanda'da büyüdü ve İngiliz Ordusunda sağlık görevlisi olarak görev yaptı; Ancak askerliği sadece beş ay sürdü ve askeri mahkemeyle sonuçlandı. Ordu tecrübesi, kulübün arka kapı acil ameliyatları için doktoru olmasına yol açtı. Fiona Larkin ile evli ve Kerrianne adında bir kızı var. Ancak, grubun lideri Jimmy O'Phelan True IRA'dan atıldığında, ailesini elinden aldı. O'Phelan da yüzünü yaraladı ve ona İrlanda'ya asla dönmemesini söyledi. Sonunda SAMBEL'den SAMCRO'ya geçerek iki tüzük arasındaki bağlantı haline gelen SAMBEL'in ilk umudu oldu. Aynı zamanda SAMCRO'nun Amerika Birleşik Devletleri'ndeki çetelere silah satan True IRA ile bağlantısı."
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textStyle="bold|italic" />
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

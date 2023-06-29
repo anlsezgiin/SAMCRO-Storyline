@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivitySezon5Sayfa3">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background"
+        tools:context=".Sezon1Sayfa3">
+
+        <Button
+            android:id="@+id/button10"
+            android:layout_width="125dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginBottom="16dp"
+            android:onClick="öncekiSayfa"
+            android:text="Geri"
+            app:layout_constraintBottom_toBottomOf="parent"
+
+            app:layout_constraintHorizontal_bias="0.204"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout3"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="125dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            android:onClick="sonrakiSayfa"
+            android:text="İLERİ"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/button10"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout3"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.175">
+
+            <ImageView
+                android:id="@+id/imageView24"
+                android:layout_width="match_parent"
+                android:layout_height="228dp"
+                app:srcCompat="@drawable/bobbyt1" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="7. BÖLÜM ''KURBAĞANIN VAHŞİ YOLCULUĞU''"
+                android:textAlignment="center"
+                android:textColor="#FF0000"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="Kulüp, ev işgalleri serisindeki noktaları birleştirmeye başlar. Göçebelerin bir şekilde işin içinde olduğuna inanılıyor ve şerif Roosevelt, Jax'in bununla hiçbir ilgisi olmamasına rağmen, saldırıları kulübün yaptığını biliyor.  Clay saldırıların arkasındadır ve göçebeleri gerçeğe yaklaşan Unser'i öldürmeye gönderir, ancak onları ikiye katlar, Unser'e yapılan saldırıyı engeller, Göçebelerden ikisini öldürür, biri hala serbest kalır.  Gemma direksiyonda uyuya kalır ve Jax'in çocuklarını eve götürürken bir araba kazası geçirir.  Kazada bir can kaybı var gibi görünüyor. Aynı anda Jax ve Chibs, bir minibüsteki iki maskeli adam tarafından yoldan çıkarlar, Jax birini vurur ve onun maskesini düşürürler; O siyah."
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="8. BÖLÜM ''ABLASYON''"
+                android:textAlignment="center"
+                android:textColor="#FF0000"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="Gemma'nın geçirdiği araba kazasının ardından, Clay ve Nero'nun Jax ve Tara ile olan belasından kurtulmasına nasıl yardımcı olacakları konusunda farklı yaklaşımları vardır.  Sons, Jax ve Chibs'e yapılan saldırının arkasında kimin olduğunu bulmaya çalışır. Bu arada Roosevelt, Jax'e Frankie Diamonds karşılığında RICO davası için kendilerini bilgilendiren kulübün üyesini vermeyi vaat ediyor.  Juice sonunda birisinin kulüpten sakladığı tüm sırları öğrenmesine izin verir. Ve Jax, Clay'in annesini manipüle etmeyi içeren bir plan tuzağı tasarlar."
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="9. BÖLÜM ''ANDRAE PESCARE''"
+                android:textAlignment="center"
+                android:textColor="#FF0000"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="Jax ve kulüp Frankie Diamonds'ın peşine düşerken, Clay ve Juice ona önce ulaşmak için kendi ipuçlarını takip eder. Gemma ve Nero, kız kardeşini gömerken sevecen bir anı paylaşır.  Otto'nun hikayesinden vazgeçmesini sağlamak için ikinci bir girişimde bulunan Tara, umduğundan fazlasını elde eder."
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textStyle="bold|italic" />
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

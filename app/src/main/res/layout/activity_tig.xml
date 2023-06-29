@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityTig">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background"
+        tools:context=".Sezon1Sayfa3">
+
+        <Button
+            android:id="@+id/button10"
+            android:layout_width="125dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginBottom="16dp"
+            android:onClick="öncekiSayfa"
+            android:text="Geri"
+            app:layout_constraintBottom_toBottomOf="parent"
+
+            app:layout_constraintHorizontal_bias="0.204"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout3"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.175">
+
+            <ImageView
+                android:id="@+id/imageView34"
+                android:layout_width="match_parent"
+                android:layout_height="231dp"
+                app:srcCompat="@drawable/tigg" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="TİG TRAGGER"
+                android:textAlignment="center"
+                android:textColor="#FF0000"
+                android:textSize="24sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="Alexander 'Tig' Trager, Sons of Anarchy Motorcycle Club Redwood Original'in (SAMCRO), Charming, California tüzüğünün şu anki Başkan Yardımcısı ve eski Silah Başçavuşudur. Kanadalı aktör Kim Coates tarafından canlandırılan Tig, dizinin ilk sezonundaki &quot;Pilot&quot; adlı dizinin ilk bölümüyle ilk kez sahneye çıkıyor. Tüm serinin ana karakterlerinden biridir; sadece 1. sezonun bir bölümünde görünmüyor. Kadınlara son derece düşkün ve kelimenin her iki anlamında da bir tamirci, kulübün eski üyesi Clay Morrow'a son derece sadıktı. Eski Başkan Jax Teller ile gerekmediği durumlarda şiddet kullanması nedeniyle gergin bir sevgi/nefret ilişkisi vardı. Sıklıkla duygusuz tavrı, olası bir duyarlılığı ve güçlü sadakati olmayan bir kişiyi gizler. Sons of Anarchy'de son olarak Mayans MC'nin dördüncü final bölümü olan &quot;Papa's Goods&quot;da, Chibs'in kendisini Başkan Yardımcısı olarak atadığı, dizinin yedinci ve son sezonunda görüldü."
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textStyle="bold|italic" />
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

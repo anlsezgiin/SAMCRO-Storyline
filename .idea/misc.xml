@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidSDK/projects/SAMCROStoryline/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.4185" />
+        <entry key="..\:/AndroidSDK/projects/SAMCROStoryline/app/src/main/res/drawable/ic_launcher_background.xml" value="0.4185" />
+        <entry key="..\:/AndroidSDK/projects/SAMCROStoryline/app/src/main/res/font/.xml" value="0.4762719110731082" />
+        <entry key="..\:/AndroidSDK/projects/SAMCROStoryline/app/src/main/res/font/lato_thin.xml" value="0.4762719110731082" />
+        <entry key="..\:/AndroidSDK/projects/SAMCROStoryline/app/src/main/res/font/roboto_thin.xml" value="0.4762719110731082" />
+        <entry key="..\:/AndroidSDK/projects/SAMCROStoryline/app/src/main/res/layout/activity_bobby.xml" value="0.4514749893116717" />
+        <entry key="..\:/AndroidSDK/projects/SAMCROStoryline/app/src/main/res/layout/activity_chibs.xml" value="0.5" />
+        <entry key="..\:/AndroidSDK/projects/SAMCROStoryline/app/src/main/res/layout/activity_clay.xml" value="0.4514749893116717" />
+        <entry key="..\:/AndroidSDK/projects/SAMCROStoryline/app/src/main/res/layout/activity_gemma.xml" value="0.4514749893116717" />
+        <entry key="..\:/AndroidSDK/projects/SAMCROStoryline/app/src/main/res/layout/activity_happy.xml" value="0.4514749893116717" />
+        <entry key="..\:/AndroidSDK/projects/SAMCROStoryline/app/src/main/res/layout/activity_jax.xml" value="0.4514749893116717" />
+        <entry key="..\:/AndroidSDK/projects/SAMCROStoryline/app/src/main/res/layout/activity_juicy.xml" value="0.4514749893116717" />
+        <entry key="..\:/AndroidSDK/projects/SAMCROStoryline/app/src/main/res/layout/activity_karakterler_ekrani.xml" value="0.5359375" />
+        <entry key="..\:/AndroidSDK/projects/SAMCROStoryline/app/src/main/res/layout/activity_karakterlerin_ekrani.xml" value="0.4514749893116717" />
+        <entry key="..\:/AndroidSDK/projects/SAMCROStoryline/app/src/main/res/layout/activity_main.xml" value="0.55" />
+        <entry key="..\:/AndroidSDK/projects/SAMCROStoryline/app/src/main/res/layout/activity_opie.xml" value="0.4514749893116717" />
+        <entry key="..\:/AndroidSDK/projects/SAMCROStoryline/app/src/main/res/layout/activity_piney.xml" value="0.4514749893116717" />
+        <entry key="..\:/AndroidSDK/projects/SAMCROStoryline/app/src/main/res/layout/activity_sezon1.xml" value="0.4514749893116717" />
+        <entry key="..\:/AndroidSDK/projects/SAMCROStoryline/app/src/main/res/layout/activity_sezon1_sayfa2.xml" value="0.5" />
+        <entry key="..\:/AndroidSDK/projects/SAMCROStoryline/app/src/main/res/layout/activity_sezon1_sayfa3.xml" value="0.4514749893116717" />
+        <entry key="..\:/AndroidSDK/projects/SAMCROStoryline/app/src/main/res/layout/activity_sezon1_sayfa4.xml" value="0.5" />
+        <entry key="..\:/AndroidSDK/projects/SAMCROStoryline/app/src/main/res/layout/activity_sezon2.xml" value="0.4888888888888889" />
+        <entry key="..\:/AndroidSDK/projects/SAMCROStoryline/app/src/main/res/layout/activity_sezon2_sayfa2.xml" value="0.5" />
+        <entry key="..\:/AndroidSDK/projects/SAMCROStoryline/app/src/main/res/layout/activity_sezon2_sayfa3.xml" value="0.5" />
+        <entry key="..\:/AndroidSDK/projects/SAMCROStoryline/app/src/main/res/layout/activity_sezon2_sayfa4.xml" value="0.43993159469858917" />
+        <entry key="..\:/AndroidSDK/projects/SAMCROStoryline/app/src/main/res/layout/activity_sezon3.xml" value="0.55" />
+        <entry key="..\:/AndroidSDK/projects/SAMCROStoryline/app/src/main/res/layout/activity_sezon3_sayfa2.xml" value="0.5" />
+        <entry key="..\:/AndroidSDK/projects/SAMCROStoryline/app/src/main/res/layout/activity_sezon4.xml" value="0.5359375" />
+        <entry key="..\:/AndroidSDK/projects/SAMCROStoryline/app/src/main/res/layout/activity_sezon4_sayfa2.xml" value="0.4514749893116717" />
+        <entry key="..\:/AndroidSDK/projects/SAMCROStoryline/app/src/main/res/layout/activity_sezon4_sayfa3.xml" value="0.43993159469858917" />
+        <entry key="..\:/AndroidSDK/projects/SAMCROStoryline/app/src/main/res/layout/activity_sezon4_sayfa4.xml" value="0.43993159469858917" />
+        <entry key="..\:/AndroidSDK/projects/SAMCROStoryline/app/src/main/res/layout/activity_sezon5.xml" value="0.55" />
+        <entry key="..\:/AndroidSDK/projects/SAMCROStoryline/app/src/main/res/layout/activity_sezon5_sayfa2.xml" value="0.4514749893116717" />
+        <entry key="..\:/AndroidSDK/projects/SAMCROStoryline/app/src/main/res/layout/activity_sezon5_sayfa3.xml" value="0.43993159469858917" />
+        <entry key="..\:/AndroidSDK/projects/SAMCROStoryline/app/src/main/res/layout/activity_sezon5_sayfa4.xml" value="0.43993159469858917" />
+        <entry key="..\:/AndroidSDK/projects/SAMCROStoryline/app/src/main/res/layout/activity_sezon6.xml" value="0.5" />
+        <entry key="..\:/AndroidSDK/projects/SAMCROStoryline/app/src/main/res/layout/activity_sezon6_sayfa2.xml" value="0.43993159469858917" />
+        <entry key="..\:/AndroidSDK/projects/SAMCROStoryline/app/src/main/res/layout/activity_sezon6_sayfa3.xml" value="0.43993159469858917" />
+        <entry key="..\:/AndroidSDK/projects/SAMCROStoryline/app/src/main/res/layout/activity_sezon6_sayfa4.xml" value="0.43993159469858917" />
+        <entry key="..\:/AndroidSDK/projects/SAMCROStoryline/app/src/main/res/layout/activity_sezon6_sayfa5.xml" value="0.43993159469858917" />
+        <entry key="..\:/AndroidSDK/projects/SAMCROStoryline/app/src/main/res/layout/activity_sezon7.xml" value="0.33" />
+        <entry key="..\:/AndroidSDK/projects/SAMCROStoryline/app/src/main/res/layout/activity_sezon7_sayfa2.xml" value="0.326417704011065" />
+        <entry key="..\:/AndroidSDK/projects/SAMCROStoryline/app/src/main/res/layout/activity_sezonlar_ekrani.xml" value="0.5" />
+        <entry key="..\:/AndroidSDK/projects/SAMCROStoryline/app/src/main/res/layout/activity_sezonlar_ekrani2.xml" value="0.4514749893116717" />
+        <entry key="..\:/AndroidSDK/projects/SAMCROStoryline/app/src/main/res/layout/activity_sezonlar_ekranii.xml" value="0.43993159469858917" />
+        <entry key="..\:/AndroidSDK/projects/SAMCROStoryline/app/src/main/res/layout/activity_tara.xml" value="0.4514749893116717" />
+        <entry key="..\:/AndroidSDK/projects/SAMCROStoryline/app/src/main/res/layout/activity_tig.xml" value="0.4514749893116717" />
+        <entry key="..\:/AndroidSDK/projects/SAMCROStoryline/app/src/main/res/layout/activity_unser.xml" value="0.4514749893116717" />
+        <entry key="..\:/AndroidSDK/projects/SAMCROStoryline/app/src/main/res/layout/activity_wendy.xml" value="0.4514749893116717" />
+        <entry key="..\:/AndroidSDK/projects/SAMCROStoryline/app/src/main/res/layout/fragment_sezon1.xml" value="0.55" />
+        <entry key="..\:/AndroidSDK/projects/SAMCROStoryline/app/src/main/res/layout/fragment_sezon1_2.xml" value="0.55" />
+        <entry key="..\:/AndroidSDK/projects/SAMCROStoryline/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.4185" />
+        <entry key="..\:/AndroidSDK/projects/SAMCROStoryline/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.4185" />
+        <entry key="..\:/AndroidSDK/projects/SAMCROStoryline/app/src/main/res/mipmap-anydpi-v26/icon1.xml" value="0.314" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityGemma">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background"
+        tools:context=".Sezon1Sayfa3">
+
+        <Button
+            android:id="@+id/button10"
+            android:layout_width="125dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginBottom="16dp"
+            android:onClick="öncekiSayfa"
+            android:text="Geri"
+            app:layout_constraintBottom_toBottomOf="parent"
+
+            app:layout_constraintHorizontal_bias="0.204"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout3"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.175">
+
+            <ImageView
+                android:id="@+id/imageView27"
+                android:layout_width="match_parent"
+                android:layout_height="165dp"
+                app:srcCompat="@drawable/geemma" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="GEMMA TELLER-MORROW"
+                android:textAlignment="center"
+                android:textColor="#FF0000"
+                android:textSize="24sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="Gemma Teller-Morrow (kızlık soyadı Maddock), FX orijinal dizisi Sons of Anarchy'de John Teller ve Clarence 'Clay' Morrow'un dul eşi Jackson 'Jax' Teller'ın annesi ve Abel Teller ve Thomas Teller II'nin büyükannesiydi. Amerikalı aktris Katey Sagal'ın canlandırdığı Gemma, dizinin ilk sezonunda dizinin ilk bölümü olan &quot;Pilot&quot; ile ilk kez sahneye çıkıyor. SAMCRO'nun en güçlü destekçisi Gemma, kulübün geleceğini güvence altına almak için kişisel olarak kulüp meseleleriyle ilgilendi ve ailesini her şeyden üstün tuttu. Sık sık vicdansız yöntemler kullanmasına rağmen, niyetleri genellikle en iyisi ya da en azından kulübün ya da ailesinin iyiliği içindi, ki bunu genellikle böyle görüyordu. Serinin birinci, ikinci , üçüncü , dördüncü , beşinci , altıncı ve yedinci sezonları boyunca ana karakterlerden biridir. Dizi boyunca sorunların çoğuna neden olan eylemleri nedeniyle, genellikle gösterinin ana antagonistlerinden biridir ve özellikle 7. Sezonun ana antagonistidir.&quot; Gemma Clay gibi acımasız eylemlerinin sonucu olarak son bölümde Jax Teller tarafından öldürülmüştür."
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView38"
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="Gemma, 15 Eylül 1957'de Oregon'da doğdu.. Madock'un Charming United Kilisesi'nde bir pozisyonu kabul etmesinden sonra Charming, California'da ikamet ediyor. Vietnam Savaşı gazisi ve Sons of Anarchy Motorcycle Club'ın kurucusu John Teller ile 1975'te evinden ayrıldıktan sonra 1978'de tanıştı. JT ile tanıştıktan iki ay sonra hamile kaldı. İki çocuğu vardı: 1978 doğumlu Jackson 'Jax' Teller ve 1984 doğumlu Thomas Teller. Gemma'nın çocuklarına geçirdiği ve Thomas'ın 1990'da öldüğü genetik bir kalp rahatsızlığı var. John'a iri yarı kamyon çarptı ve 1993 yılında öldü. Gemma, John'un arkadaşı Clay Morrow ile evlendi ve SAMCRO macerasını bu evlilik ile devam ettirdi."
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textStyle="bold|italic" />
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

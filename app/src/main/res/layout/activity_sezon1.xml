@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".ActivitySezon1">
+
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="125dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="16dp"
+        android:onClick="sonrakiSayfa"
+        android:text="İleri"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.936"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="125dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="16dp"
+        android:onClick="öncekiSayfa"
+        android:text="Geri"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.063"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="413dp"
+        android:layout_height="449dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.41"
+        app:srcCompat="@drawable/jaxx" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="413dp"
+        android:layout_height="190dp"
+        android:layout_marginBottom="132dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="413dp"
+            android:layout_height="67dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="Sons of Anarchy dizisinin 13 bölümlük ilk sezonudur. 3 Eylül 2008 tarihinde ''Pilot'' isimli ilk bölümü ile ekranlara gelmiştir. İlk sezon 85 günlük bir süre boyunca her hafta çarşamba günleri yayınlanmıştır."
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="408dp"
+            android:layout_height="17dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="1.BÖLÜM ''PILOT''"
+            android:textAlignment="center"
+            android:textColor="#F44336"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="410dp"
+            android:layout_height="92dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="
+    Rakip bir kulüp, yasadışı silah depolarını temizledikten sonra yok ettiğinde, SAMCRO (Sons of Anarchy Motorcycle Club Redwood Original)
+    silahlarını alırken kendi adalet duygusunu yerine getirir. Bu arada, aile sorunları, Jax Teller'ın yeni doğan oğlunu içeren tıbbi bir acil durumla ön plana çıkıyor."
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold|italic" />
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

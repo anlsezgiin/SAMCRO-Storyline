@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".KarakterlerEkrani">
+
+    <LinearLayout
+        android:layout_width="233dp"
+        android:layout_height="673dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="100dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/button4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/button32"
+            android:layout_width="234dp"
+            android:layout_height="48dp"
+            android:onClick="button1"
+            android:text="Bobby Munson"
+            tools:layout_editor_absoluteX="89dp"
+            tools:layout_editor_absoluteY="650dp" />
+
+        <Button
+            android:id="@+id/button21"
+            android:layout_width="234dp"
+            android:layout_height="48dp"
+            android:onClick="button2"
+            android:text="Chibs Telford"
+            tools:layout_editor_absoluteX="89dp"
+            tools:layout_editor_absoluteY="322dp" />
+
+        <Button
+            android:id="@+id/button31"
+            android:layout_width="234dp"
+            android:layout_height="48dp"
+            android:onClick="button3"
+            android:text="Clay Morrow"
+            tools:layout_editor_absoluteX="89dp"
+            tools:layout_editor_absoluteY="605dp" />
+
+        <Button
+            android:id="@+id/button27"
+            android:layout_width="234dp"
+            android:layout_height="48dp"
+            android:onClick="button4"
+            android:text="Gemma Teller-Morrow"
+            tools:layout_editor_absoluteX="89dp"
+            tools:layout_editor_absoluteY="80dp" />
+
+        <Button
+            android:id="@+id/button24"
+            android:layout_width="234dp"
+            android:layout_height="48dp"
+            android:onClick="button5"
+            android:text="Happy Lowman"
+            android:textAlignment="center"
+            tools:layout_editor_absoluteX="89dp"
+            tools:layout_editor_absoluteY="178dp" />
+
+        <Button
+            android:id="@+id/button22"
+            android:layout_width="234dp"
+            android:layout_height="48dp"
+            android:onClick="button6"
+            android:text="Jax Teller"
+            tools:layout_editor_absoluteX="89dp"
+            tools:layout_editor_absoluteY="274dp" />
+
+        <Button
+            android:id="@+id/button23"
+            android:layout_width="234dp"
+            android:layout_height="48dp"
+            android:onClick="button7"
+            android:text="Juan Carlos"
+            tools:layout_editor_absoluteX="89dp"
+            tools:layout_editor_absoluteY="226dp" />
+
+        <Button
+            android:id="@+id/button30"
+            android:layout_width="234dp"
+            android:layout_height="48dp"
+            android:onClick="button8"
+            android:text="Opie Winston"
+            android:textAlignment="center"
+            tools:layout_editor_absoluteX="89dp"
+            tools:layout_editor_absoluteY="559dp" />
+
+        <Button
+            android:id="@+id/button19"
+            android:layout_width="234dp"
+            android:layout_height="48dp"
+            android:onClick="button9"
+            android:text="Piney Winston"
+            tools:layout_editor_absoluteX="89dp"
+            tools:layout_editor_absoluteY="415dp" />
+
+        <Button
+            android:id="@+id/button26"
+            android:layout_width="234dp"
+            android:layout_height="48dp"
+            android:onClick="button10"
+            android:text="Tara Knowles"
+            tools:layout_editor_absoluteX="89dp"
+            tools:layout_editor_absoluteY="463dp" />
+
+        <Button
+            android:id="@+id/button29"
+            android:layout_width="234dp"
+            android:layout_height="48dp"
+            android:onClick="button11"
+            android:text="Tig Tragger"
+            tools:layout_editor_absoluteX="89dp"
+            tools:layout_editor_absoluteY="511dp" />
+
+        <Button
+            android:id="@+id/button20"
+            android:layout_width="234dp"
+            android:layout_height="48dp"
+            android:onClick="button12"
+            android:text="Wayne Unser"
+            tools:layout_editor_absoluteX="88dp"
+            tools:layout_editor_absoluteY="360dp" />
+
+        <Button
+            android:id="@+id/button25"
+            android:layout_width="234dp"
+            android:layout_height="48dp"
+            android:onClick="button13"
+            android:text="Wendy Case"
+            tools:layout_editor_absoluteX="89dp"
+            tools:layout_editor_absoluteY="128dp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="166dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="30dp"
+        android:onClick="geriDön"
+        android:text="Geri Dön"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
